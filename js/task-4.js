@@ -10,8 +10,8 @@ loginForm.addEventListener("submit", (event) => {
     return console.log("All form fields must be filled in");
   }
     const object = {};
-    object.Email = `${email}`;
-    object.Password = `${password}`;
+    object.email = `${email}`;
+    object.password = `${password}`;
     
   console.log(object);
   form.reset();
